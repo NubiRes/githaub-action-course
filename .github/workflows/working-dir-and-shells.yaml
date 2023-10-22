@@ -20,7 +20,7 @@ jobs:
   display-wd-info-windows:
     runs-on: windows-latest
     defaults:
-      run:  |
+      run:
         shell: pwsh
     steps:
       - name: Display Working Directory & List Files
