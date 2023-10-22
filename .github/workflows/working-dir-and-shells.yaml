@@ -2,7 +2,7 @@ name: Working Dirs & Shells
 on: [push]
 defaults:
   run:
-    shell:  bash
+    shell: bash
 jobs:
   display-wd-info:
     runs-on: ubuntu-latest
@@ -16,7 +16,7 @@ jobs:
           echo $GITHUB_WORKSPACE
       - name: Change Working Dir
         working-directory: /home/runner
-        run:  pwd
+        run: pwd
   display-wd-info-windows:
     runs-on: windows-latest
     defaults:
