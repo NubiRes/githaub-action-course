@@ -1,6 +1,6 @@
 # Databricks notebook source
 # MAGIC %md
-# MAGIC #### The protection rules apply to all including adminstrators.
+# MAGIC #### The protection rules apply to all including adminstrators. I romoved the approver.
 
 # COMMAND ----------
 
