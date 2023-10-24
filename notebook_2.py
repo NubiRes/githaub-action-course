@@ -5,3 +5,8 @@
 # COMMAND ----------
 
 print("checking the protection of the main barnch")
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC # No Approver Required
