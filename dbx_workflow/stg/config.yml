@@ -1,0 +1,53 @@
+databricks_url: "https://adb-4546395387634582.2.azuredatabricks.net"
+keyvault: "formula1g2a-key-vault"
+databricks_token_secretkey: "databrickstoken"
+
+###1st Job
+PLAN_COUNTY_MCM_STREAM:
+####defining cluster environment tag ####
+  cluster_tag:
+    stream_type:  "delta"
+    RG: "RG-Databricks-Course"
+    mcm_stream: "PLAN_COUNTY_MCM_STREAM"
+    environment:  "stage"
+    JobCluster: "mcm"
+
+####2nd Job ####
+BENEFIT_RANKING_MCM_STREAM:
+#####defining cluster envirnmnet tag #####
+  cluster_tag:
+    stream_type:  "delta"
+    RG: "RG-Databricks-Course"
+    mcm_stream: "BENEFIT_RANKING_MCM_STREAM"
+    environment:  "stage"
+    JobCluster: "mcm"
+
+####3nd Job ####
+PLAN_CONTACT_MCM_STREAM:
+#####defining cluster envirnmnet tag #####
+  cluster_tag:
+    stream_type:  "delta"
+    RG: "RG-Databricks-Course"
+    mcm_stream: "PLAN_CONTACT_MCM_STREAM"
+    environment:  "stage"
+    JobCluster: "mcm"
+
+####4th Job ####
+MARKETINGCONTENT_MCM_STREAM:
+#####defining cluster envirnmnet tag #####
+  cluster_tag:
+    stream_type:  "delta"
+    RG: "RG-Databricks-Course"
+    mcm_stream: "MARKETINGCONTENT_MCM_STREAM"
+    environment:  "stage"
+    JobCluster: "mcm"
+
+####5th Job ####
+BENEFIT_MCM_STREAM:
+#####defining cluster envirnmnet tag #####
+  cluster_tag:
+    stream_type:  "delta"
+    RG: "RG-Databricks-Course"
+    mcm_stream: "BENEFIT_MCM_STREAM"
+    environment:  "stage"
+    JobCluster: "mcm"
