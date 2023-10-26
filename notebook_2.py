@@ -6,6 +6,10 @@
 
 print("checking the protection of the main barnch")
 
+print("checking the protection of the main barnch")
+print("checking the protection of the main barnch")
+print("checking the protection of the main barnch")
+
 # COMMAND ----------
 
 # MAGIC %md
