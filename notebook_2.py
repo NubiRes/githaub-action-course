@@ -14,3 +14,19 @@ print("checking the protection of the main barnch")
 
 # MAGIC %md
 # MAGIC # No Approver Required
+
+# COMMAND ----------
+
+# MAGIC %fs ls dbfs:/mnt/formula1dlg2a/presentation/driver_standing/
+
+# COMMAND ----------
+
+df = spark.read.parquet("/mnt/formula1dlg2a/presentation/driver_standing/")
+
+# COMMAND ----------
+
+display(df)
+
+# COMMAND ----------
+
+
